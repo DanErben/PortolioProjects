@@ -125,8 +125,8 @@ CASE
 WITH RowNumCTE AS(
 SELECT *, ROW_NUMBER() OVER(
 PARTITION BY UniqueID, 
-			 ParcelID, 
-			 PropertyAddress, 
+	     ParcelID, 
+	     PropertyAddress, 
              LegalReference
              ORDER BY UniqueID)  AS row_num
  From PortfolioProject.nashvillehousing
