@@ -6,4 +6,4 @@ This project uses SQL queries to find useful information within a large Covid-19
 
 
 --------NASHVILLE HOUSING DATA CLEANING                        
-This project involves cleaning housing data in SQL.  The overall goal was to make this dataset more intutive to read and easier to query.  Techiques used include substrings, case statements, and CTE.       
+This project involves cleaning housing data in SQL.  The overall goal is to make this dataset more intutive to read and easier to query.  Techiques used include substrings, case statements, and CTE.       
