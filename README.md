@@ -1,7 +1,7 @@
 # PortolioProjects
 
 --------COVID-19 DATA EXPLORATION  
-This project uses SQL queries to find useful information within a large data set.  A selection of these queries were exported to CSV and later used to create a visualization in Tableau.
+This project uses SQL queries to find useful information within a large data set.  A selection of these queries are exported to CSV and used to create a visualization in Tableau.
                    
 
 
