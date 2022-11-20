@@ -130,7 +130,7 @@ PARTITION BY UniqueID,
              LegalReference
              ORDER BY UniqueID)  AS row_num
  From PortfolioProject.nashvillehousing
-				)
+			   )
 SELECT *   
 FROM RowNumCTE
 WHERE row_num >1;
