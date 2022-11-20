@@ -103,7 +103,7 @@ DROP COLUMN OwnerAddress, DROP COLUMN PropertyAddress;
 
 SELECT DISTINCT SoldAsVacant,
 CASE
-	WHEN SoldAsVacant = 'Y' THEN 'Yes'
+    WHEN SoldAsVacant = 'Y' THEN 'Yes'
     WHEN SoldAsVacant = 'N' THEN 'No'
     ELSE SoldAsVacant
     END AS Yes_No
